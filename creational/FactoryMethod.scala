@@ -1,6 +1,6 @@
 trait Animal
-private class Dog extends Animal
-private class Cat extends Animal
+class Dog private extends Animal
+class Cat private extends Animal
 
 object Animal {
   def apply(kind: String) = kind match {
